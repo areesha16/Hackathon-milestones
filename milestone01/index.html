@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <Link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="heading"><strong>Milestone 1 Static Resume Builder</strong></div>
+     <div class="main">
+        <form  id="resumeform">
+        <div class="personal"><strong>Personal Info</strong></div>
+       <label for="picture"class="inputname" id="upload"><strong>Upload Picture</strong></label>
+        <input type="file" name="picture" id="picture" class="forpic" accept="image"><br> <br>
+        <label for="name" class="inputname"><strong>Name:</strong></label>
+        <input type="text" id="name" name="name" required> <br><br>
+        <label for="email" class="inputname" ><strong>Email:</strong></label>
+        <input type="email" name="email" id="email" required> <br><br>
+        <label for="phone" class="inputname"><strong>Phone Number</strong></label> 
+        <input type="text" id="phone" name="phone" required> <br><br>
+        <label for="address" class="inputname"><strong>Address</strong></label>
+        <input type="text" name="address" id="address" required><br><br>
+    
+    <div class="personal"><strong>Skills</strong></div>
+    <label for="skills" class="inputname"><strong>Skills</strong></label>
+    <input type="text" name="skills" id="skills" required><br><br>
+
+    <div class="personal"><strong>Education</strong></div>
+    <label for="education " class="inputname"><strong>Education</strong></label>
+    <textarea name="education" id="education" required></textarea><br><br>
+    <div class="personal">Experience</div>
+    <label for="experience" class="inputname" ><strong>Work Experience</strong></label>
+    <textarea name="experience" id="experience" required></textarea><br><br>
+    <input type="submit" class="inputname" value="Generate Resume">
+
+    
+ </form>
+    </div>
+    
+</body>
+</html>

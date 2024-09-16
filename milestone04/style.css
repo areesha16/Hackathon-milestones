@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(226, 144, 202);
+}
+.heading{
+    color: aqua;
+    font-size:xx-large ;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.mainn{
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: url(http://wallpapercave.com/wp/qMI7GJS.jpg);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+        position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.personal{
+    color: palevioletred;
+    background-color: #dab9f8;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
+.inputname{
+    color: palevioletred;
+    font-size: larger;
+    margin-left: 20px;
+    padding-top: 30px;
+    text-decoration:solid;
+}
+.forpic{
+    color: pink;
+}
+input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color:rgb(222, 125, 222) ;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+input[type="file"]::file-selector-button{
+    background-color:#0c7792;
+    cursor: pointer;
+    font-size: large;
+    color: white;
+    border-color:#0c7792;
+    border-radius: 10px;
+}
+input[type="file"]::file-selector-button:hover{
+    background-color: purple;
+}
+input[type="submit"]{
+    
+    border-radius: 30px;
+    background-color:#0c7792;
+    color: white;
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+form {
+    margin-bottom: 40px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-color:#0c7792;
+    border-width: 3px;
+    
+}
+    
+#resume {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    border: 3px solid rgb(42, 6, 77);
+    color:pink;
+    padding: 20px;
+    border-radius: 8px;
+    background-image: url(http://wallpapercave.com/wp/qMI7GJS.jpg);
+}
+.resumeinfo{
+    background-color: beige;
+    color:palevioletred;
+    text-align: center;
+}
+
+h2, p {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 600px) {
+    /* Adjusting padding and font size for smaller screens */
+    body {
+        margin: 10px;
+    }
+
+    form {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    img {
+        max-width: 100px;
+    }
+    input[type="submit"]{
+        padding: auto;
+    }
+    #resume{
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-left: -3px;
+    }
+
+}
