@@ -100,6 +100,17 @@ input, textarea {
     color:palevioletred;
     text-align: center;
 }
+#shareable-link-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+border: 3px solid#0c7792;
+color:#084f61;
+padding: 20px;
+border-radius: 8px;
+background-image: url(http://wallpapercave.com/wp/qMI7GJS.jpg);
 
 h2, p {
     margin: 10px 0;
